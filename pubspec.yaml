@@ -1,0 +1,53 @@
+name: nfc_pay
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: 5.8.4
+  get: ^4.6.5
+  pin_code_fields: ^7.4.0
+  flutter_svg:
+  logger: 1.4.0
+  get_storage:
+  http: 1.0.0
+  image_picker: 0.8.8
+  country_code_picker: 3.0.0
+  google_fonts:
+  badges: ^3.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+#  change_app_package_name: ^1.1.0
+#  flutter_launcher_icons: ^0.13.1
+#
+#  flutter_app_name: ^0.1.0
+#flutter_app_name:
+#  name: "NFC Pay"
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bg/
+    - assets/card/
+    - assets/clipart/
+    - assets/icon/
+    - assets/logo/
+    - assets/onboard/
